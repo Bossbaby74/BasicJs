@@ -1,36 +1,6 @@
-/*this course will teach different ways of naming variables and as we proceed,
-we will have explanations using comment.
-*/
-//here we have declared a variable and assigned a value to it(initializing a variable)
-/*let height = 180;
-let anotherHeight = height;
-console.log(height);
-console.log(anotherHeight);
-*/
 
-//const keyword is used to declare constants(which are values that do not change)
 
-//scope of a variable
-//global scope
-
-//local scope
-
-/*var globalGreeting = "Good ";
-   
-function testFunction() {
-    var localGreeting = "Morning ";
-    console.log("function:");
-    console.log(globalGreeting);
-    console.log(localGreeting);
-}
-   
-testFunction();
-   
-console.log("main program:");
-console.log(globalGreeting);
-console.log(localGreeting);
-*/
-/*function userInfo(){
+function userInfo(){
     let userName = prompt("Enter your name");
     let UserAddress = prompt("Enter your address");
     let userPhone = prompt("Enter phone numbber");
@@ -39,12 +9,12 @@ console.log(localGreeting);
 
 }
 userInfo();
-//console.log(userName);(this will not work because it is a local variable and we are trying to access it like a global variable.)
-*/
+console.log(userName);//(this will not work because it is a local variable and we are trying to access it like a global variable.)
+
 
 //exercise:
 
-/*let NoOfRoses = 70;
+let NoOfRoses = 70;
 let NoOfLily = 50;
 let NoOfTulip = 120;
 
@@ -62,18 +32,18 @@ console.log("Rose - unit price: " + RosePrice + ", quantity: " + NoOfRoses + ", 
 console.log("Lily - unit price: " + LilyPrice + ", quantity: " + NoOfLily + ", Value: " + LilyValue);
 console.log("Tulip - unit price: " + TulipPrice + ", quantity: " + NoOfTulip + ", Value: " + TulipValue);
 console.log("Total: " + Total );
-*/
 
-/*str = "Java script language tutorial";
+//string functions
+str = "Java script language tutorial";
 
 console.log(str.slice(0, 4));
 console.log(str.slice(0, 28));
 console.log(str.slice(7));
 console.log(str.slice(0, 4));
 console.log(str.charAt());
-console.log(str.length); */
+console.log(str.length); 
 
-/*//excercise1 on objects
+//excercise1 on objects
 const ticket = {
     from :  "Starting station",
     to : "Ending station",
@@ -81,18 +51,18 @@ const ticket = {
 };
 
 console.log(`ticket info: departure: ${ticket.from}`);  console.log(`Destination: ${ticket.to}`); console.log(`price: ${ticket.price}`);
-*/
+
 
 // excercise 2 on obj
 
-/*let person = {
+let person = {
 
 };
 
 person.name = "Nzengang";
 person.surName = "Gabriel";
 console.log(`${person.name}`); console.log(`${person.surName}`);
-*/
+
 
 //excercise 3
 
