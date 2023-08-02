@@ -1,5 +1,5 @@
 //calculating the volume of a box with values from the users
-export function jsVolume() {
+function jsVolume() {
   let width = prompt("Enter the with");
   let height = prompt("Enter the height");
   let length = prompt("Enter the length");

@@ -1,4 +1,4 @@
-export let contacts = [
+let contacts = [
   {
     name: "Maxwell Wright",
     phone: "(0191) 719 6495",

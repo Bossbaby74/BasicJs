@@ -1,5 +1,5 @@
 //only one alert will be shown, and JavaScript will stop checking conditions after the first condition that has been met.
-export let number = prompt("Enter a number", 0);
+let number = prompt("Enter a number", 0);
 
 if (number < 10) {
   alert("<10");

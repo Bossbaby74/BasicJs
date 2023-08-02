@@ -1,4 +1,4 @@
-export function userInfo() {
+function userInfo() {
   let userName = prompt("Enter your name");
   let UserAddress = prompt("Enter your address");
   let userPhone = prompt("Enter phone numbber");

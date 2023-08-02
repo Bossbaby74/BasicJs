@@ -1,5 +1,5 @@
 //exercise:
-export function flowers() {
+function flowers() {
   let NoOfRoses = 70;
   let NoOfLily = 50;
   let NoOfTulip = 120;

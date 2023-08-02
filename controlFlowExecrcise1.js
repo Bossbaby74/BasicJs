@@ -1,7 +1,7 @@
 /*display a "bingo" when number >90 && <110 otherwise 
 display "Hiss" */
 
-export let message1 = "Bingo!";
+let message1 = "Bingo!";
 let message2 = "Hiss";
 
 let num = prompt("Enter a number");

@@ -1,5 +1,5 @@
 //string functions
-export let str = "Java script language tutorial";
+let str = "Java script language tutorial";
 
 console.log(str.slice(0, 4));
 console.log(str.slice(0, 28));
